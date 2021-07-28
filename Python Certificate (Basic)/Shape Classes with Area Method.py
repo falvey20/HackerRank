@@ -9,8 +9,11 @@ class Rectangle:
 class Circle:
     def __init__(self,radius):
         self.radius = radius
+        
     def area(self):
         return math.pi * (self.radius**2) #** allows radius to be squared.
+    
+    
 if __name__ == '__main__':  
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
     q = int(input())
